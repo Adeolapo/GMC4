@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+.App{
+  background-color: #22262f;
+  margin: auto;
+  text-align: center;
+  padding: 50px;
+}
+.list{
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.card{
+  width: 350px;
+  height: 500px;
+  padding: 10px;
+  /* From https://css.glass */
+background: rgba(232, 233, 239, 0.14);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(211, 207, 207, 0.2);
+backdrop-filter: blur(15.5px);
+-webkit-backdrop-filter: blur(15.5px);
+border: 1px solid rgba(104, 207, 157, 0.14);
+color: whitesmoke;
+}
+
+.card img{
+  width: 90%;
+  height: 55%;
+  margin: auto;
+  color: whitesmoke;
+  border-radius: 15px;
+}
+
+input{
+  width: 500px;
+  height: 35px;
+  margin: 0px 0px 30px 30px;
+  background-color: transparent;
+  border: whitesmoke solid;
+  color: whitesmoke;
+}
+button{
+  height: 40px;
+  border-radius: 7px;
+}
