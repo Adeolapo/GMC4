@@ -81,3 +81,31 @@ button{
   height: 40px;
   border-radius: 7px;
 }
+.page{
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+}
+.page .container{
+  width: 80%;
+  height: 90%;
+  padding: 10px;
+  margin: auto;
+  background: rgba(232, 233, 239, 0.14);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(211, 207, 207, 0.2);
+  backdrop-filter: blur(15.5px);
+  -webkit-backdrop-filter: blur(15.5px);
+  border: 1px solid rgba(104, 207, 157, 0.14);
+  color: whitesmoke;
+}
+.page img{
+  height: 90%;
+  width: 400px;
+  position: absolute;
+  border-radius: 1rem;
+  left: 1rem;
+}
+.lol.active{
+  color: yellow;
+}
